@@ -1,8 +1,0 @@
-name: what time is it
-run-name: ${{ github.actor }} ui
-on: [push]
-jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
-    steps:
-      - run: date
