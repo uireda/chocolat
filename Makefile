@@ -12,7 +12,7 @@ CFLAGS = -Wall -Wextra -Werror
 EXECUTABLE = mysh
 
 all:
-	touch $(EXECUTABLE)
+	touch $(EXECUTABLE) o
 	chmod +x $(EXECUTABLE)
 
 tests_run:
